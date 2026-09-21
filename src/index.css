@@ -23,7 +23,8 @@
   --black: #0E1318;
 
   --bg-dark: url("assets/Dark BG Pattern.png");
-  --bg-paper: url("assets/Paper BG Pattern.png")
+  --bg-paper: url("assets/Paper BG Pattern.png");
+  font-size: 16px;
 }
 
 
@@ -42,6 +43,7 @@ button {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  gap: 16px;
 
   background-image: var(--bg-dark);
   padding: 32px;
